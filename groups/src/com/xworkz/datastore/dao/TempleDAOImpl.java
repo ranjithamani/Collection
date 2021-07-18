@@ -148,17 +148,16 @@ public class TempleDAOImpl implements TempleDAO {
 
 	@Override
 	public String findLocationByName(String name) {
-		//String dt = null;
-		/*Iterator<TempleDTO> itr = this.list.iterator();
+		Iterator<TempleDTO> itr = this.list.iterator();
+		String temp=null;
 		while (itr.hasNext()) {
 			TempleDTO tr = itr.next();
-			//String temp=tr
 			if (tr.getName().equals(name)) {
 				System.out.println("find location By Name:" + tr);
-
+                temp=tr.getLocation();
 			}
-		}*/
-		return null;
+		}
+		return temp;
 	}
 
 	@Override
