@@ -15,7 +15,7 @@ TempleDTO findByName(String name);
 TempleDTO findByLocation(String loc);
 TempleDTO findByLocationAndName(String name,String location);
 Collection<TempleDTO> findAll();
-//Collection<TempleDTO> findAllTempleByLocationStartsWith(char c);
+Collection<TempleDTO> findAllTempleByLocationStartsWith(char cha);
 Collection<TempleDTO> findAllTempleByEntryFeeGreaterThan(double cost);
 Collection<TempleDTO> findAllTempleByNoOfPoojarisGreaterThan(int no);
 String findLocationByName(String name);
